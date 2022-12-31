@@ -149,4 +149,5 @@ if city == "":
     main_logo.place(x=80, y=170)
 
 
+
 root.mainloop()
