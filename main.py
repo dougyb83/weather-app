@@ -35,6 +35,7 @@ root.geometry(f'{app_width}x{app_height}+{int(x)}+{int(y)}')
 label_destroy = False
 label_list = []
 
+
 def bClick():
     global wind_arrow, weather_icon, label_destroy, label_list
 
