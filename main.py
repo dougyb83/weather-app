@@ -119,7 +119,7 @@ city = ""
 def delete_placeholder(e):
    city_input.delete(0,"end")
 
-# Only display search bar and button until city name submitted
+#Only display search bar and button until city name submitted
 if city == "":
     # place rectangle under search bar
     searchbox_image = PhotoImage(file="icons/rounded_rectangle.png")
@@ -148,7 +148,5 @@ if city == "":
     logo = logo.subsample(2, 2)
     main_logo = Label(image=logo, bg="#57adff")
     main_logo.place(x=80, y=170)
-
-
 
 root.mainloop()
